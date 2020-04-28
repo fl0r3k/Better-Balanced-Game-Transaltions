@@ -24,9 +24,9 @@
 			<Replace Tag="LOC_BUILDING_FILM_STUDIO_DESCRIPTION" Language="fr_FR">
 				<Text>Bâtiment exclusif à l'Amérique. [ICON_Tourism] Tourisme de la ville vers les autres civilisations +50 % dans l'ère moderne.</Text>
 			</Replace>
-			<Replace Tag="LOC_PROMOTION_COMBAT_FOREIGN_CONTINENT_DESCRIPTION" Language="fr_FR">
+			<Row Tag="LOC_PROMOTION_COMBAT_FOREIGN_CONTINENT_DESCRIPTION" Language="fr_FR">
 				<Text>+5 Puissance de Combat en attaque sur continent étranger.</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_PROMOTION_COMBAT_HOME_CONTINENT_DESCRIPTION" Language="fr_FR">
 				<Text>+5 Puissance de Combat en défense sur continent d'origine.</Text>
 			</Replace>
@@ -78,12 +78,12 @@
 			</Replace>
 
 			<!-- ================ China ================ -->
-			<Replace Tag="LOC_ABILITY_TIGER_ADJACENCY_DESCRIPTION" Language="fr_FR">
+			<Row Tag="LOC_ABILITY_TIGER_ADJACENCY_DESCRIPTION" Language="fr_FR">
 				<Text>[ICON_Strength] Puissance de Combat +7 en cas d'attaque sur une unité ennemie adjacente.</Text>
-			</Replace>
-			<Replace Tag="LOC_ABILITY_TIGER_ADJACENCY_NAME" Language="fr_FR">
+			</Row>
+			<Row Tag="LOC_ABILITY_TIGER_ADJACENCY_NAME" Language="fr_FR">
 				<Text>Boulet de canon!</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION" Language="fr_FR">
 				<Text>Exclusive à la Chine, cette unité d'attaque à distance remplace l'Arbalétrier. [ICON_Ranged] Puissance d'attaque à distance +7 en cas d'attaque sur une unité ennemie adjacente.</Text>
 			</Replace>
@@ -191,9 +191,9 @@
 			<Replace Tag="LOC_BUILDING_PRASAT_DESCRIPTION" Language="fr_FR">
 				<Text>Bâtiment exclusif aux Khmers qui remplace le temple, sans lequel vous ne pourrez pas acheter d'apôtres ou d'inquisiteurs contre de la [ICON_Faith] foi. Octroie un missionnaire à sa construction si vous avez fondé une religion. Les missionnaires achetés dans cette ville reçoivent la compétence Martyr, qui octroie une [ICON_GreatWork_Relic] relique en cas de mort en combat théologique.</Text>
 			</Replace>
-			<Replace Tag="LOC_DISTRICT_HOLY_SITE_RIVER_FAITH" Language="fr_FR">
+			<Row Tag="LOC_DISTRICT_HOLY_SITE_RIVER_FAITH" Language="fr_FR">
 				<Text>[ICON_Faith] Foi +{1_num} (rivières).</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_TRAIT_CIVILIZATION_KHMER_BARAYS_DESCRIPTION" Language="fr_FR">
 				<Text>[ICON_FAITH] Foi +2 pour chaque route commerciale internationale envoyée ou reçue. La civilisation émettrice reçoit également 2 [ICON_FAITH] foi. [ICON_FAITH] Foi +3 et [ICON_AMENITIES] activités de loisirs +1 pour chaque ville dotée d'un aqueduc. [ICON_FOOD] Nourriture +2 pour les fermes adjacentes à un aqueduc.</Text>
 			</Replace>
@@ -216,21 +216,21 @@
 			<Replace Tag="LOC_DISTRICT_BASE_DISTRICT_SCIENCE" Language="fr_FR">
 				<Text>[ICON_SCIENCE] Science bonus +{1_num}.</Text>
 			</Replace>
-			<Replace Tag="LOC_DISTRICT_MINE_SCIENCE" Language="fr_FR">
+			<Row Tag="LOC_DISTRICT_MINE_SCIENCE" Language="fr_FR">
 				<Text>[ICON_SCIENCE] Science bonus +{1_num} de la part {1_Num : plural 1?de la mine adjacente; other?des mines adjacentes;}.</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_DISTRICT_SEOWON_DESCRIPTION" Language="fr_FR">
 				<Text>Destiné à la recherche scientifique, ce quartier exclusif à la Corée remplace le campus. [ICON_SCIENCE] Science +2. Octroie +1 [ICON_CULTURE] Culture aux Places du Théâtre adjacentes. Déclenche une bombe culturelle une fois construit. Doit être construit sur une colline.</Text>
 			</Replace>
 			<Replace Tag="LOC_DISTRICT_SEOWON_DESCRIPTION_ADJACENCY" Language="fr_FR">
 				<Text>Proximité : [ICON_SCIENCE] Science +1 toutes les deux mines adjacentes. [ICON_SCIENCE] science -1 pour chaque quartier adjacent, à l'exception des Places du Théâtre, qui octroient +1 [ICON_SCIENCE] Science. Octroie également +1 [ICON_CULTURE] Culture aux Places du Théâtre adjacentes.</Text>
 			</Replace>
-			<Replace Tag="LOC_DISTRICT_SEOWON_THEATER_BONUS" Language="fr_FR">
+			<Row Tag="LOC_DISTRICT_SEOWON_THEATER_BONUS" Language="fr_FR">
 				<Text>+{1_num} [ICON_Science] Science de la part des Places du Théâtre adjacentes.</Text>
-			</Replace>
-			<Replace Tag="LOC_DISTRICT_THEATER_SEOWON_BONUS" Language="fr_FR">
+			</Row>
+			<Row Tag="LOC_DISTRICT_THEATER_SEOWON_BONUS" Language="fr_FR">
 				<Text>+{1_num} [ICON_CULTURE] Culture de la part des Seowon adjacents.</Text>
-			</Replace>
+			</Row>
 
 			<!-- ================ Macedonia ================ -->
 			<Replace Tag="LOC_ABILITY_HYPASPIST_SIEGE_BONUS_DESCRIPTION" Language="fr_FR">
@@ -275,15 +275,15 @@
 			<Replace Tag="LOC_BUILDING_STAVE_CHURCH_DESCRIPTION" Language="fr_FR">
 				<Text>Bâtiment exclusif à la Norvège, sans lequel vous ne pourrez pas acheter d'apôtres ou d'inquisiteurs contre de la [ICON_Faith] foi. [ICON_FAITH] Foi +1 pour chaque ressource de la ville et [ICON_PRODUCTION] Production +1 pour chaque ressource côtière de la ville.</Text>
 			</Replace>
-			<Replace Tag="LOC_DISTRICT_HOLY_SITE_NORWAY_COAST_FAITH" Language="fr_FR">
+			<Row Tag="LOC_DISTRICT_HOLY_SITE_NORWAY_COAST_FAITH" Language="fr_FR">
 				<Text>[ICON_Faith] Foi +{1_num} (cases côtières).</Text>
-			</Replace>
-			<Replace Tag="LOC_DISTRICT_SACREDPATH_WOODS_FAITH" Language="fr_FR">
+			</Row>
+			<Row Tag="LOC_DISTRICT_SACREDPATH_WOODS_FAITH" Language="fr_FR">
 				<Text>[ICON_Faith] Foi +{1_num} {1_Num : plural 1?de la case; other?des cases;} de Bois {1_Num : plural 1?adjacente; other?adjacentes;}.</Text>
-			</Replace>
-			<Replace Tag="LOC_HOLY_SITE_HARBOR_ADJACENCY_DESCRIPTION" Language="fr_FR">
+			</Row>
+			<Row Tag="LOC_HOLY_SITE_HARBOR_ADJACENCY_DESCRIPTION" Language="fr_FR">
 				<Text> [ICON_Gold] Or +{1_num} (lieux saints).</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_TRAIT_CIVILIZATION_EARLY_OCEAN_NAVIGATION_DESCRIPTION" Language="fr_FR">
 				<Text>Les unités peuvent traverser les cases d'océan une fois la technologie de Construction Navale découverte. Les unités navales de combat rapproché se soignent lorsqu'elles se situent en territoire neutre. L'embarquement et le débarquement des unités ne consomment pas de [ICON_Movement] PM.</Text>
 			</Replace>
@@ -399,9 +399,9 @@
 
 
 		<!-- ================ D E D I C A T I O N S ================ -->
-		<Replace Tag="LOC_MILITARY_GA_BUFF_DESCRIPTION" Language="fr_FR">
+		<Row Tag="LOC_MILITARY_GA_BUFF_DESCRIPTION" Language="fr_FR">
 			<Text>+10 [ICON_STRENGTH] Puissance de Combat contre les quartiers défendables.</Text>
-		</Replace>
+		</Row>
 		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE" Language="fr_FR">
 			<Text>Âge d'or "Le stylo, le pinceau et la voix" : [NEWLINE]Les [ICON_CivicBoosted] inspirations fournissent 10 % en plus vers l'obtention des dogmes. [ICON_Culture] Culture +2 et [ICON_Gold] or +1 pour chaque quartier spécialisé dans toutes les villes.</Text>
 		</Replace>
@@ -467,20 +467,20 @@
 			<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_DESCRIPTION" Language="fr_FR">
 				<Text>Loyauté +4 par tour dans toutes vos villes dans un rayon de 9 cases.</Text>
 			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_NEGOTIATOR_DESCRIPTION" Language="fr_FR">
+			<Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_NEGOTIATOR_DESCRIPTION" Language="fr_FR">
 				<Text>La ville ne peut pas être assiégée et gagne +5 Puissance Défensive.</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_NEGOTIATOR_NAME" Language="fr_FR">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_NEGOTIATOR_NAME" Language="fr_FR">
 				<Text>Condottiere</Text>
-			</Replace>
+			</Row>
 
 			<!-- ================ Liang ================ -->
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_AGRICULTURE_DESCRIPTION" Language="fr_FR">
+			<Row Tag="LOC_GOVERNOR_PROMOTION_AGRICULTURE_DESCRIPTION" Language="fr_FR">
 				<Text>[ICON_FOOD] Nourriture +1 sur toutes les ressources révélées dans la ville.</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_AGRICULTURE_NAME" Language="fr_FR">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_AGRICULTURE_NAME" Language="fr_FR">
 				<Text>Agriculture</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_DESCRIPTION" Language="fr_FR">
 				<Text>Peut construire un parc urbain sur un terrain plat de cette ville une fois le Dogme des Loisirs découvert. [ICON_Culture] Culture +3, [ICON_SCIENCE] Science +3 et [ICON_GOLD] Or +3. [ICON_HOUSING] Habitations +1, [ICON_Amenities] Activités +1 et Attrait +2.</Text>
 			</Replace>
@@ -514,18 +514,18 @@
 			</Replace>
 
 			<!-- ================ Pingala ================ -->
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_EUREKA_DESCRIPTION" Language="fr_FR">
+			<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_EUREKA_DESCRIPTION" Language="fr_FR">
 				<Text>Double le bonus de proximité du Campus de la ville.</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_EUREKA_NAME" Language="fr_FR">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_EUREKA_NAME" Language="fr_FR">
 				<Text>Eurêka !</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_KNOWLEDGE_DESCRIPTION" Language="fr_FR">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_KNOWLEDGE_DESCRIPTION" Language="fr_FR">
 				<Text>[ICON_SCIENCE] Science +3 pour vos routes commerciales vers cette ville.</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_KNOWLEDGE_NAME" Language="fr_FR">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_KNOWLEDGE_NAME" Language="fr_FR">
 				<Text>Savoir partagé.</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_DESCRIPTION" Language="fr_FR">
 				<Text>[ICON_Science] Science générée par la ville +15 %.</Text>
 			</Replace>
@@ -534,12 +534,12 @@
 			</Replace>
 
 			<!-- ================ Reyna ================ -->
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_INVESTOR_DESCRIPTION" Language="fr_FR">
+			<Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_INVESTOR_DESCRIPTION" Language="fr_FR">
 				<Text>50% de réduction pour l'achat en [ICON_GOLD] Or des bâtiments de la ville.</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_INVESTOR_NAME" Language="fr_FR">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_INVESTOR_NAME" Language="fr_FR">
 				<Text>Négociatrice</Text>
-			</Replace>
+			</Row>
 
 			<!-- ================ Victor ================ -->
 			<Replace Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_DESCRIPTION" Language="fr_FR">

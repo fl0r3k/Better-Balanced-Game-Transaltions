@@ -83,7 +83,7 @@ def get_data():
                 if row['Type'] == 'Replace':
                     wirte_replace(f, tag, lang, text, tabs)
                 elif row['Type'] == 'Row':
-                    wirte_replace(f, tag, lang, text, tabs)
+                    wirte_row(f, tag, lang, text, tabs)
 
 
             wirte_footer(f)

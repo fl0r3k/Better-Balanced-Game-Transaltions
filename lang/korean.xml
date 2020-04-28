@@ -24,9 +24,9 @@
 			<Replace Tag="LOC_BUILDING_FILM_STUDIO_DESCRIPTION" Language="ko_KR">
 				<Text>미국 특유의 건물입니다. 현대 시대에서 [ICON_Tourism] 관광 +50%를 제공합니다.</Text>
 			</Replace>
-			<Replace Tag="LOC_PROMOTION_COMBAT_FOREIGN_CONTINENT_DESCRIPTION" Language="ko_KR">
+			<Row Tag="LOC_PROMOTION_COMBAT_FOREIGN_CONTINENT_DESCRIPTION" Language="ko_KR">
 				<Text>[ICON_Capital] 수도가 위치하지 않은 대륙에서 공격 시 [ICON_Strength] 전투력 +5. (루즈벨트)</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_PROMOTION_COMBAT_HOME_CONTINENT_DESCRIPTION" Language="ko_KR">
 				<Text>고향 대륙에서 방어시 [ICON_Strength] 전투력 +5. (루즈벨트)</Text>
 			</Replace>
@@ -72,12 +72,12 @@
 			</Replace>
 
 			<!-- ================ China ================ -->
-			<Replace Tag="LOC_ABILITY_TIGER_ADJACENCY_DESCRIPTION" Language="ko_KR">
+			<Row Tag="LOC_ABILITY_TIGER_ADJACENCY_DESCRIPTION" Language="ko_KR">
 				<Text>인접한 적 유닛을 공격할 때 [ICON_Ranged] 원거리 전투력 +7을 획득합니다. </Text>
-			</Replace>
-			<Replace Tag="LOC_ABILITY_TIGER_ADJACENCY_NAME" Language="ko_KR">
+			</Row>
+			<Row Tag="LOC_ABILITY_TIGER_ADJACENCY_NAME" Language="ko_KR">
 				<Text>직사포탄!</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION" Language="ko_KR">
 				<Text>석궁병을 대체하는 중국 특유의 중세 시대 유닛입니다. 인접한 적 유닛을 공격할 때 [ICON_Ranged] 원거리 전투력 +7을 획득합니다.</Text>
 			</Replace>
@@ -185,9 +185,9 @@
 			<Replace Tag="LOC_BUILDING_PRASAT_DESCRIPTION" Language="ko_KR">
 				<Text>크메르 특유의 건물입니다. [ICON_Faith] 신앙으로 사도와 이단심문관을 구매하는 데 필요합니다. 지어질 때 무료 선교사 1명을 제공합니다. 이 도시에서 구매한 선교사는 신학 전투에서 처치되었을 때 [ICON_GreatWork_Relic] 성유물을 부여하는 순교자 능력을 얻습니다.</Text>
 			</Replace>
-			<Replace Tag="LOC_DISTRICT_HOLY_SITE_RIVER_FAITH" Language="ko_KR">
+			<Row Tag="LOC_DISTRICT_HOLY_SITE_RIVER_FAITH" Language="ko_KR">
 				<Text>성지 특수지구는 인접한 강으로부터 [ICON_Faith] 신앙 +{1_num}를 획득합니다.</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_TRAIT_CIVILIZATION_KHMER_BARAYS_DESCRIPTION" Language="ko_KR">
 				<Text>외국 도시와 연결된 모든 [ICON_TradeRoute] 교역로에서 양 문명 모두 [ICON_FAITH] 신앙 +2를 획득합니다. 송수로를 보유한 각 도시는 유흥에 의한 [ICON_FAITH] 신앙 +3 및 [ICON_AMENITIES] 쾌적도 +1을 제공합니다. 농장은 송수로에 인접한 경우 [ICON_FOOD] 식량 +2를 제공합니다.</Text>
 			</Replace>
@@ -207,21 +207,21 @@
 			<Replace Tag="LOC_DISTRICT_BASE_DISTRICT_SCIENCE" Language="ko_KR">
 				<Text>[ICON_Science] 과학 +{1_num}.</Text>
 			</Replace>
-			<Replace Tag="LOC_DISTRICT_MINE_SCIENCE" Language="ko_KR">
+			<Row Tag="LOC_DISTRICT_MINE_SCIENCE" Language="ko_KR">
 				<Text>인접한 {1_Num : plural 1?광산; other?광산;}에서 [ICON_Science] 과학 +{1_num}.</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_DISTRICT_SEOWON_DESCRIPTION" Language="ko_KR">
 				<Text>한국 특유의 과학 발전을 위한 특수지구로 캠퍼스 특수지구를 대체합니다. [ICON_SCIENCE] 과학 +2를 제공하며 인접한 광산 2개마다 [ICON_SCIENCE] 과학 +1의 인접 보너스를 추가로 획득합니다. 인접한 극장가 특수지구에서 [ICON_CULTURE] 문화 +1의 인접 보너스를 획득합니다. 언덕에 지어야 합니다. 서원이 완성되면 인접 타일에 문화 폭탄을 투여합니다.</Text>
 			</Replace>
 			<Replace Tag="LOC_DISTRICT_SEOWON_DESCRIPTION_ADJACENCY" Language="ko_KR">
 				<Text>인접효과: 인접한 광산 2개당 [ICON_SCIENCE] 과학이 +1 증가합니다. 극장가를 제외한 인접 특수지구 하나당 [ICON_SCIENCE] 과학이 -1 감소합니다. 또한 인접한 극장가에 [ICON_CULTURE] 문화 +1의 인접 보너스를 제공합니다.</Text>
 			</Replace>
-			<Replace Tag="LOC_DISTRICT_SEOWON_THEATER_BONUS" Language="ko_KR">
+			<Row Tag="LOC_DISTRICT_SEOWON_THEATER_BONUS" Language="ko_KR">
 				<Text>인접한 {1_Num : plural 1?극장가; other?극장가;}에서 [ICON_Science] 과학 +{1_num}.</Text>
-			</Replace>
-			<Replace Tag="LOC_DISTRICT_THEATER_SEOWON_BONUS" Language="ko_KR">
+			</Row>
+			<Row Tag="LOC_DISTRICT_THEATER_SEOWON_BONUS" Language="ko_KR">
 				<Text>인접한 {1_Num : plural 1?서원; other?서원;}에서 [ICON_CULTURE] 문화 +{1_num}.</Text>
-			</Replace>
+			</Row>
 
 			<!-- ================ Macedonia ================ -->
 			<Replace Tag="LOC_ABILITY_HYPASPIST_SIEGE_BONUS_DESCRIPTION" Language="ko_KR">
@@ -266,15 +266,15 @@
 			<Replace Tag="LOC_BUILDING_STAVE_CHURCH_DESCRIPTION" Language="ko_KR">
 				<Text>노르웨이 특유의 건물입니다. [ICON_Faith] 신앙으로 사도와 이단심문관을 구매하기 위해 요구됩니다. 도시 내 각 자원에 [ICON_FAITH] 신앙 +1을 제공하며, 도시 내 각 해안 자원에 [ICON_PRODUCTION] 생산력 +1을 제공합니다.</Text>
 			</Replace>
-			<Replace Tag="LOC_DISTRICT_HOLY_SITE_NORWAY_COAST_FAITH" Language="ko_KR">
+			<Row Tag="LOC_DISTRICT_HOLY_SITE_NORWAY_COAST_FAITH" Language="ko_KR">
 				<Text>성지 특수지구는 인접한 해안 타일에서 [ICON_Faith] 신앙 +{1_num}을 획득합니다.</Text>
-			</Replace>
-			<Replace Tag="LOC_DISTRICT_SACREDPATH_WOODS_FAITH" Language="ko_KR">
+			</Row>
+			<Row Tag="LOC_DISTRICT_SACREDPATH_WOODS_FAITH" Language="ko_KR">
 				<Text>인접한 숲 {1_Num : plural 1?타일; other?타일;}에서 [ICON_Faith] 신앙 +{1_num}.</Text>
-			</Replace>
-			<Replace Tag="LOC_HOLY_SITE_HARBOR_ADJACENCY_DESCRIPTION" Language="ko_KR">
+			</Row>
+			<Row Tag="LOC_HOLY_SITE_HARBOR_ADJACENCY_DESCRIPTION" Language="ko_KR">
 				<Text>인접한 성지 특수지구에서 [ICON_Gold] 금 +{1_num}.</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_TRAIT_CIVILIZATION_EARLY_OCEAN_NAVIGATION_DESCRIPTION" Language="ko_KR">
 				<Text>유닛은 조선 기술 연구 후 해양 타일로 이동할 수 있게 됩니다. 해상 근접 유닛은 중립 지역에서 체력을 회복할 수 있습니다. 유닛은 승선 또는 하선 시, 추가 [ICON_Movement] 이동 비용이 들지 않습니다.</Text>
 			</Replace>
@@ -390,9 +390,9 @@
 
 
 		<!-- ================ D E D I C A T I O N S ================ -->
-		<Replace Tag="LOC_MILITARY_GA_BUFF_DESCRIPTION" Language="ko_KR">
+		<Row Tag="LOC_MILITARY_GA_BUFF_DESCRIPTION" Language="ko_KR">
 			<Text>방어 가능한 특수지구 상대시 [ICON_Strength] 전투력 +10.</Text>
-		</Replace>
+		</Row>
 		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE" Language="ko_KR">
 			<Text>펜, 붓과 목소리 황금기:[NEWLINE][ICON_CivicBoosted] 영감이 사회 제도 상승효과 10%를 추가로 제공합니다. 각 도시에는 전문 특수지구당 [ICON_Culture] 문화 +2와 [ICON_Gold] 금 +1이 제공됩니다.</Text>
 		</Replace>
@@ -458,20 +458,20 @@
 			<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_DESCRIPTION" Language="ko_KR">
 				<Text>9타일 이내의 플레이어 타 도시는 턴당 플레이어 문명을 향한 충성심 +4를 획득합니다.</Text>
 			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_NEGOTIATOR_DESCRIPTION" Language="ko_KR">
+			<Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_NEGOTIATOR_DESCRIPTION" Language="ko_KR">
 				<Text>도시를 포위할 수 없습니다. 도시 주둔군의 [ICON_Strength] 전투력이 +5 증가합니다.</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_NEGOTIATOR_NAME" Language="ko_KR">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_NEGOTIATOR_NAME" Language="ko_KR">
 				<Text>협상가</Text>
-			</Replace>
+			</Row>
 
 			<!-- ================ Liang ================ -->
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_AGRICULTURE_DESCRIPTION" Language="ko_KR">
+			<Row Tag="LOC_GOVERNOR_PROMOTION_AGRICULTURE_DESCRIPTION" Language="ko_KR">
 				<Text>도시 내 자원에 [ICON_FOOD] 식량 +1을 제공합니다.</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_AGRICULTURE_NAME" Language="ko_KR">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_AGRICULTURE_NAME" Language="ko_KR">
 				<Text>농업</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_DESCRIPTION" Language="ko_KR">
 				<Text>오락과 여가 사회제도가 잠금 해제되면, 도시 공원을 도시의 평지 타일에 건설할 수 있습니다. 도시당 하나만 건설 가능합니다. [ICON_SCIENCE] 과학 +3, [ICON_Culture] 문화 +3, [ICON_GOLD] 금 +3, [ICON_HOUSING] 주거 +1, [ICON_Amenities] 쾌적도 +1과 매력도 +2를 제공합니다.</Text>
 			</Replace>
@@ -505,18 +505,18 @@
 			</Replace>
 
 			<!-- ================ Pingala ================ -->
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_EUREKA_DESCRIPTION" Language="ko_KR">
+			<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_EUREKA_DESCRIPTION" Language="ko_KR">
 				<Text>도시의 캠퍼스에서 얻는 인접 보너스가 두 배가 됩니다.</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_EUREKA_NAME" Language="ko_KR">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_EUREKA_NAME" Language="ko_KR">
 				<Text>유레카</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_KNOWLEDGE_DESCRIPTION" Language="ko_KR">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_KNOWLEDGE_DESCRIPTION" Language="ko_KR">
 				<Text>이 도시가 목적지인 국내 [ICON_TradeRoute] 교역로에서 출발 도시에 [ICON_Science] 과학 +3을 제공합니다.</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_KNOWLEDGE_NAME" Language="ko_KR">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_KNOWLEDGE_NAME" Language="ko_KR">
 				<Text>지식 공유</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_DESCRIPTION" Language="ko_KR">
 				<Text>도시가 생성하는 [ICON_Science] 과학이 15% 증가합니다.</Text>
 			</Replace>
@@ -525,12 +525,12 @@
 			</Replace>
 
 			<!-- ================ Reyna ================ -->
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_INVESTOR_DESCRIPTION" Language="ko_KR">
+			<Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_INVESTOR_DESCRIPTION" Language="ko_KR">
 				<Text>이 도시에서 [ICON_GOLD] 금으로 건물을 구매하는 비용이 50% 저렴합니다.</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_INVESTOR_NAME" Language="ko_KR">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_INVESTOR_NAME" Language="ko_KR">
 				<Text>딜메이커</Text>
-			</Replace>
+			</Row>
 
 			<!-- ================ Victor ================ -->
 			<Replace Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_DESCRIPTION" Language="ko_KR">

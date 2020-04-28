@@ -24,9 +24,9 @@
 			<Replace Tag="LOC_BUILDING_FILM_STUDIO_DESCRIPTION" Language="ru_RU">
 				<Text>Уникальное здание Америки. +50% к влиянию [ICON_Tourism] туризма от этого города на другие цивилизации в Новое время.</Text>
 			</Replace>
-			<Replace Tag="LOC_PROMOTION_COMBAT_FOREIGN_CONTINENT_DESCRIPTION" Language="ru_RU">
+			<Row Tag="LOC_PROMOTION_COMBAT_FOREIGN_CONTINENT_DESCRIPTION" Language="ru_RU">
 				<Text>+5 к боевой мощи в атаке на чужом континенте.</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_PROMOTION_COMBAT_HOME_CONTINENT_DESCRIPTION" Language="ru_RU">
 				<Text>+5 к боевой мощи в защите на родном континенте.</Text>
 			</Replace>
@@ -72,12 +72,12 @@
 			</Replace>
 
 			<!-- ================ China ================ -->
-			<Replace Tag="LOC_ABILITY_TIGER_ADJACENCY_DESCRIPTION" Language="ru_RU">
+			<Row Tag="LOC_ABILITY_TIGER_ADJACENCY_DESCRIPTION" Language="ru_RU">
 				<Text>+7 [ICON_Strength] к боевой мощи по соседним юнитам.</Text>
-			</Replace>
-			<Replace Tag="LOC_ABILITY_TIGER_ADJACENCY_NAME" Language="ru_RU">
+			</Row>
+			<Row Tag="LOC_ABILITY_TIGER_ADJACENCY_NAME" Language="ru_RU">
 				<Text>В яблочко!</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION" Language="ru_RU">
 				<Text>Уникальный китайский юнит Средневековья, заменяющий арбалетчиков. [ICON_Range] дальность – 2, +7 [ICON_Ranged] к мощи выстрела по соседним юнитам.</Text>
 			</Replace>
@@ -185,9 +185,9 @@
 			<Replace Tag="LOC_BUILDING_PRASAT_DESCRIPTION" Language="ru_RU">
 				<Text>Уникальное здание кхмеров, которое заменяет храм. Необходимо для найма апостолов и инквизиторов за [ICON_Faith] веру. При постройке здания дает бесплатно одного миссионера. Миссионеры, нанятые в этом городе, сразу получают способность «Мученик», которая дает [ICON_GreatWork_Relic] реликвию, если юнит погибает в теологической баталии.</Text>
 			</Replace>
-			<Replace Tag="LOC_DISTRICT_HOLY_SITE_RIVER_FAITH" Language="ru_RU">
+			<Row Tag="LOC_DISTRICT_HOLY_SITE_RIVER_FAITH" Language="ru_RU">
 				<Text>+{1_num} [ICON_Faith] веры от речки.</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_TRAIT_CIVILIZATION_KHMER_BARAYS_DESCRIPTION" Language="ru_RU">
 				<Text>Кхмеры получают +2 [ICON_FAITH] за международные торговые пути к своим городам и от них. Цивилизация-отправитель такого торгового пути также имеет с него +2 [ICON_FAITH] веры. +3 [ICON_FAITH] веры и +1 [ICON_AMENITIES] довольства от развлечений в каждом городе с акведуком. Фермы рядом с акведуком дают +2 [ICON_FOOD] еды.</Text>
 			</Replace>
@@ -207,21 +207,21 @@
 			<Replace Tag="LOC_DISTRICT_BASE_DISTRICT_SCIENCE" Language="ru_RU">
 				<Text>+{1_num} [ICON_SCIENCE] к науке (учитывается как бонус соседства).</Text>
 			</Replace>
-			<Replace Tag="LOC_DISTRICT_MINE_SCIENCE" Language="ru_RU">
+			<Row Tag="LOC_DISTRICT_MINE_SCIENCE" Language="ru_RU">
 				<Text>+{1_num} [ICON_SCIENCE] к науке за {1_Num : plural 1?рудники; other?рудники;} рядом.</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_DISTRICT_SEOWON_DESCRIPTION" Language="ru_RU">
 				<Text>Уникальный район Кореи для научных исследований. Заменяет кампус. Имеет базовый бонус соседства +2 [ICON_SCIENCE] науки. Шахты даёт малый бонус соседства. +1 [ICON_CULTURE] культуры рядом с театральной площадью. Можно строить только на холмах.</Text>
 			</Replace>
 			<Replace Tag="LOC_DISTRICT_SEOWON_DESCRIPTION_ADJACENCY" Language="ru_RU">
 				<Text>Соседство: +1 [ICON_SCIENCE] науки за каждые 2 соседние шахты. -1 [ICON_SCIENCE] науки за каждый соседний район, кроме театральной площади. +1 [ICON_CULTURE] культуры за каждую соседнюю театральную площадь.</Text>
 			</Replace>
-			<Replace Tag="LOC_DISTRICT_SEOWON_THEATER_BONUS" Language="ru_RU">
+			<Row Tag="LOC_DISTRICT_SEOWON_THEATER_BONUS" Language="ru_RU">
 				<Text>+{1_num} к [ICON_Science] науке за каждую соседнюю театральную площадь.</Text>
-			</Replace>
-			<Replace Tag="LOC_DISTRICT_THEATER_SEOWON_BONUS" Language="ru_RU">
+			</Row>
+			<Row Tag="LOC_DISTRICT_THEATER_SEOWON_BONUS" Language="ru_RU">
 				<Text>+{1_num} к [ICON_CULTURE] культуре за каждый соседний совон.</Text>
-			</Replace>
+			</Row>
 
 			<!-- ================ Macedonia ================ -->
 			<Replace Tag="LOC_ABILITY_HYPASPIST_SIEGE_BONUS_DESCRIPTION" Language="ru_RU">
@@ -266,15 +266,15 @@
 			<Replace Tag="LOC_BUILDING_STAVE_CHURCH_DESCRIPTION" Language="ru_RU">
 				<Text>Уникальная постройка Норвегии, которая заменяет им храм. +1 к [ICON_FAITH] вере каждому ресурсу в городе и +1 к [ICON_PRODUCTION] производству за каждый прибрежный ресурс. Требуется для приобретения апостолов и инквизиторов за [ICON_Faith] веру.</Text>
 			</Replace>
-			<Replace Tag="LOC_DISTRICT_HOLY_SITE_NORWAY_COAST_FAITH" Language="ru_RU">
+			<Row Tag="LOC_DISTRICT_HOLY_SITE_NORWAY_COAST_FAITH" Language="ru_RU">
 				<Text>+{1_num} [ICON_Faith] веры от берега.</Text>
-			</Replace>
-			<Replace Tag="LOC_DISTRICT_SACREDPATH_WOODS_FAITH" Language="ru_RU">
+			</Row>
+			<Row Tag="LOC_DISTRICT_SACREDPATH_WOODS_FAITH" Language="ru_RU">
 				<Text>+{1_num} [ICON_Faith] веры от соседн{1_Num : plural 1?ей клетки; other?их клеток;} с лесом.</Text>
-			</Replace>
-			<Replace Tag="LOC_HOLY_SITE_HARBOR_ADJACENCY_DESCRIPTION" Language="ru_RU">
+			</Row>
+			<Row Tag="LOC_HOLY_SITE_HARBOR_ADJACENCY_DESCRIPTION" Language="ru_RU">
 				<Text>+{1_num} [ICON_Gold] золота от священного места рядом.</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_TRAIT_CIVILIZATION_EARLY_OCEAN_NAVIGATION_DESCRIPTION" Language="ru_RU">
 				<Text>Юниты могут пересекать океан после изучения кораблестроения. Морские юниты ближнего боя могут восстанавливать здоровье на нейтральной территории. Юниты не требуют затрат [ICON_Movement] очков передвижения на высадку на море и с моря.</Text>
 			</Replace>
@@ -390,9 +390,9 @@
 
 
 		<!-- ================ D E D I C A T I O N S ================ -->
-		<Replace Tag="LOC_MILITARY_GA_BUFF_DESCRIPTION" Language="ru_RU">
+		<Row Tag="LOC_MILITARY_GA_BUFF_DESCRIPTION" Language="ru_RU">
 			<Text>+10 [ICON_STRENGTH] против защищенных районов.</Text>
-		</Replace>
+		</Row>
 		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE" Language="ru_RU">
 			<Text>Перо, кисть и голос – золотой век:[NEWLINE][ICON_CivicBoosted] Вдохновение дает дополнительно 10% стоимости социальных институтов. Каждый город получает +2 [ICON_Culture] культуры и +1 [ICON_Gold] золота за каждый специализированный район. </Text>
 		</Replace>
@@ -458,20 +458,20 @@
 			<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_DESCRIPTION" Language="ru_RU">
 				<Text>Все города, в радиусе 9 клеток, получают 4 лояльности в ход в пользу вашей цивилизации.</Text>
 			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_NEGOTIATOR_DESCRIPTION" Language="ru_RU">
+			<Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_NEGOTIATOR_DESCRIPTION" Language="ru_RU">
 				<Text>Город не может быть взят в Осаду. Увеличивает защиту городского гарнизона на 5.</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_NEGOTIATOR_NAME" Language="ru_RU">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_NEGOTIATOR_NAME" Language="ru_RU">
 				<Text>Посредник</Text>
-			</Replace>
+			</Row>
 
 			<!-- ================ Liang ================ -->
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_AGRICULTURE_DESCRIPTION" Language="ru_RU">
+			<Row Tag="LOC_GOVERNOR_PROMOTION_AGRICULTURE_DESCRIPTION" Language="ru_RU">
 				<Text>+1 [ICON_FOOD] Пищи на каждом известном ресурсе в этом городе.</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_AGRICULTURE_NAME" Language="ru_RU">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_AGRICULTURE_NAME" Language="ru_RU">
 				<Text>Сельское Хозяйство</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_DESCRIPTION" Language="ru_RU">
 				<Text>Позволяет построить городской парк после изучения социального института «Игры и развлечения». Одна постройка на город. +3 [ICON_SCIENCE] Науки, +3 [ICON_Culture] Культуры, +3 [ICON_GOLD] Золота, +1 [ICON_HOUSING] Жилья, +1 [ICON_Amenities] Довольства, и +2 Престижа соседним клеткам.</Text>
 			</Replace>
@@ -505,18 +505,18 @@
 			</Replace>
 
 			<!-- ================ Pingala ================ -->
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_EUREKA_DESCRIPTION" Language="ru_RU">
+			<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_EUREKA_DESCRIPTION" Language="ru_RU">
 				<Text>Удваивает бонус соседства с кампусом в этом городе.</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_EUREKA_NAME" Language="ru_RU">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_EUREKA_NAME" Language="ru_RU">
 				<Text>Эврика</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_KNOWLEDGE_DESCRIPTION" Language="ru_RU">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_KNOWLEDGE_DESCRIPTION" Language="ru_RU">
 				<Text>Внутренние [ICON_TradeRoute] Торговые пути к городу с Пингалой получают +3 [ICON_SCIENCE] Науки.</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_KNOWLEDGE_NAME" Language="ru_RU">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_KNOWLEDGE_NAME" Language="ru_RU">
 				<Text>Общие Знания</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_DESCRIPTION" Language="ru_RU">
 				<Text>15% увеличение [ICON_Science] Науки, вырабатываемой этим городом.</Text>
 			</Replace>
@@ -525,12 +525,12 @@
 			</Replace>
 
 			<!-- ================ Reyna ================ -->
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_INVESTOR_DESCRIPTION" Language="ru_RU">
+			<Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_INVESTOR_DESCRIPTION" Language="ru_RU">
 				<Text>50% [ICON_GOLD] Скидка на все здания, купленные в этом городе.</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_INVESTOR_NAME" Language="ru_RU">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_INVESTOR_NAME" Language="ru_RU">
 				<Text>Дилер</Text>
-			</Replace>
+			</Row>
 
 			<!-- ================ Victor ================ -->
 			<Replace Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_DESCRIPTION" Language="ru_RU">
