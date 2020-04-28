@@ -24,9 +24,9 @@
 			<Replace Tag="LOC_BUILDING_FILM_STUDIO_DESCRIPTION" Language="ja_JP">
 				<Text>A building unique to America. +50% [ICON_Tourism] Tourism pressure from this city towards other civilizations in the Modern era.</Text>
 			</Replace>
-			<Replace Tag="LOC_PROMOTION_COMBAT_FOREIGN_CONTINENT_DESCRIPTION" Language="ja_JP">
+			<Row Tag="LOC_PROMOTION_COMBAT_FOREIGN_CONTINENT_DESCRIPTION" Language="ja_JP">
 				<Text>+5 Combat when attacking on foreign continent.</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_PROMOTION_COMBAT_HOME_CONTINENT_DESCRIPTION" Language="ja_JP">
 				<Text>+5 Combat when defending on home continent.</Text>
 			</Replace>
@@ -72,12 +72,12 @@
 			</Replace>
 
 			<!-- ================ China ================ -->
-			<Replace Tag="LOC_ABILITY_TIGER_ADJACENCY_DESCRIPTION" Language="ja_JP">
+			<Row Tag="LOC_ABILITY_TIGER_ADJACENCY_DESCRIPTION" Language="ja_JP">
 				<Text>+7 [ICON_Strength] Combat Strength when attacking adjacent enemy units.</Text>
-			</Replace>
-			<Replace Tag="LOC_ABILITY_TIGER_ADJACENCY_NAME" Language="ja_JP">
+			</Row>
+			<Row Tag="LOC_ABILITY_TIGER_ADJACENCY_NAME" Language="ja_JP">
 				<Text>Cannonball!</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION" Language="ja_JP">
 				<Text>Chinese unique unit that replaces the Crossbowman. +7 [ICON_Ranged] Ranged Strength when attacking adjacent enemy units.</Text>
 			</Replace>
@@ -185,9 +185,9 @@
 			<Replace Tag="LOC_BUILDING_PRASAT_DESCRIPTION" Language="ja_JP">
 				<Text>A building unique to Khmer that replace the Temple. Grants a free Missionary when built (if a Religion has been founded). Missionaries purchased in this city receive the Martyr ability, which grants a [ICON_GreatWork_Relic] Relic if this Missionary dies in Theological Combat. Required to purchase Apostles and Inquisitors with [ICON_Faith] Faith.</Text>
 			</Replace>
-			<Replace Tag="LOC_DISTRICT_HOLY_SITE_RIVER_FAITH" Language="ja_JP">
+			<Row Tag="LOC_DISTRICT_HOLY_SITE_RIVER_FAITH" Language="ja_JP">
 				<Text>+{1_num} [ICON_Faith] Faith from the river.</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_TRAIT_CIVILIZATION_KHMER_BARAYS_DESCRIPTION" Language="ja_JP">
 				<Text>+2 [ICON_FAITH] Faith to Khmer from incoming and outgoing international trade routes. The sending Civilization also receives +2 [ICON_FAITH] Faith. +3 [ICON_FAITH] Faith and +1 [ICON_AMENITIES] Amenity from entertainment to each city with an Aqueduct. Farms provide +2 [ICON_FOOD] Food if adjacent to an Aqueduct.</Text>
 			</Replace>
@@ -207,21 +207,21 @@
 			<Replace Tag="LOC_DISTRICT_BASE_DISTRICT_SCIENCE" Language="ja_JP">
 				<Text>+{1_num} [ICON_SCIENCE] Science base adjacency.</Text>
 			</Replace>
-			<Replace Tag="LOC_DISTRICT_MINE_SCIENCE" Language="ja_JP">
+			<Row Tag="LOC_DISTRICT_MINE_SCIENCE" Language="ja_JP">
 				<Text>+{1_num} [ICON_SCIENCE] Science adjacency from the adjacent {1_Num : plural 1?Mines; other?Mines;}.</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_DISTRICT_SEOWON_DESCRIPTION" Language="ja_JP">
 				<Text>A district unique to Korea that replaces the Campus district and must be built on hills. +2 [ICON_SCIENCE] Science base adjacency and mines provide minor adjacency bonuses. Provides +1 [ICON_CULTURE] Culture to adjacent Theater Squares. Culture bombs adjacent tiles when completed.</Text>
 			</Replace>
 			<Replace Tag="LOC_DISTRICT_SEOWON_DESCRIPTION_ADJACENCY" Language="ja_JP">
 				<Text>Adjacency: +1 [ICON_SCIENCE] Science for every 2 adjacent mines. -1 [ICON_SCIENCE] Science for each adjacent District except for Theater Squares. Also provides +1 [ICON_CULTURE] Culture for adjacent Theater Squares.</Text>
 			</Replace>
-			<Replace Tag="LOC_DISTRICT_SEOWON_THEATER_BONUS" Language="ja_JP">
+			<Row Tag="LOC_DISTRICT_SEOWON_THEATER_BONUS" Language="ja_JP">
 				<Text>+{1_num} [ICON_Science] Science from the adjacent Theater Square.</Text>
-			</Replace>
-			<Replace Tag="LOC_DISTRICT_THEATER_SEOWON_BONUS" Language="ja_JP">
+			</Row>
+			<Row Tag="LOC_DISTRICT_THEATER_SEOWON_BONUS" Language="ja_JP">
 				<Text>+{1_num} [ICON_CULTURE] Culture from the adjacent Seowon.</Text>
-			</Replace>
+			</Row>
 
 			<!-- ================ Macedonia ================ -->
 			<Replace Tag="LOC_ABILITY_HYPASPIST_SIEGE_BONUS_DESCRIPTION" Language="ja_JP">
@@ -266,15 +266,15 @@
 			<Replace Tag="LOC_BUILDING_STAVE_CHURCH_DESCRIPTION" Language="ja_JP">
 				<Text>A building unique to Norway that replaces the Temple. +1 [ICON_FAITH] to each resource tile in this city and +1 [ICON_PRODUCTION] Production for each coastal resource tile in this city. Required to purchase Apostles and Inquisitors with [ICON_Faith] Faith.</Text>
 			</Replace>
-			<Replace Tag="LOC_DISTRICT_HOLY_SITE_NORWAY_COAST_FAITH" Language="ja_JP">
+			<Row Tag="LOC_DISTRICT_HOLY_SITE_NORWAY_COAST_FAITH" Language="ja_JP">
 				<Text>+{1_num} [ICON_Faith] Faith from coast.</Text>
-			</Replace>
-			<Replace Tag="LOC_DISTRICT_SACREDPATH_WOODS_FAITH" Language="ja_JP">
+			</Row>
+			<Row Tag="LOC_DISTRICT_SACREDPATH_WOODS_FAITH" Language="ja_JP">
 				<Text>+{1_num} [ICON_Faith] Faith from the adjacent Woods {1_Num : plural 1?tile; other?tiles;}.</Text>
-			</Replace>
-			<Replace Tag="LOC_HOLY_SITE_HARBOR_ADJACENCY_DESCRIPTION" Language="ja_JP">
+			</Row>
+			<Row Tag="LOC_HOLY_SITE_HARBOR_ADJACENCY_DESCRIPTION" Language="ja_JP">
 				<Text>+{1_num} [ICON_Gold] Gold from the adjacent Holy Site.</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_TRAIT_CIVILIZATION_EARLY_OCEAN_NAVIGATION_DESCRIPTION" Language="ja_JP">
 				<Text>Units gain the ability to enter Ocean tiles after researching the Shipbuilding technology. Naval melee units heal in neutral territory. Units ignore additional [ICON_Movement] Movement costs from embarking and disembarking.</Text>
 			</Replace>
@@ -390,9 +390,9 @@
 
 
 		<!-- ================ D E D I C A T I O N S ================ -->
-		<Replace Tag="LOC_MILITARY_GA_BUFF_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_MILITARY_GA_BUFF_DESCRIPTION" Language="ja_JP">
 			<Text>+10 [ICON_STRENGTH] against defensible districts.</Text>
-		</Replace>
+		</Row>
 		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE" Language="ja_JP">
 			<Text>Pen, Brush, and Voice Golden Age:[NEWLINE][ICON_CivicBoosted] Inspirations provide an additional 10% of civic costs. Each city receives +2 [ICON_Culture] Culture and +1 [ICON_Gold] Gold for each specialty district.</Text>
 		</Replace>
@@ -414,9 +414,6 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_9" Language="ja_JP">
 			<Text>To Arms!: Gain +1 Era Score each time you kill a non-Barbarian Corps in combat and +2 Era Score each time you kill a non-Barbarian Army in combat. If chosen at the start of a Golden Age, unlocks a special Casus Belli which gives 75% less warmonger penalties than formal war and can be used immediately after Denouncing the target. +15% [ICON_Production] Production towards military units and military units gain +10 [ICON_Strength] against cities. Industrial through Atomic Era.</Text>
 		</Replace>
-
-
-		<!-- ================ D E D I C T I O N S ================ -->
 
 
 		<!-- ================ D I S T R I C T S ================ -->
@@ -461,20 +458,20 @@
 			<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_DESCRIPTION" Language="ja_JP">
 				<Text>All cities within 9 tiles gain +4 Loyalty per turn towards your civilization.</Text>
 			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_NEGOTIATOR_DESCRIPTION" Language="ja_JP">
+			<Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_NEGOTIATOR_DESCRIPTION" Language="ja_JP">
 				<Text>City cannot be put under Siege and gains +5 City Defense Strength.</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_NEGOTIATOR_NAME" Language="ja_JP">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_NEGOTIATOR_NAME" Language="ja_JP">
 				<Text>Negotiator</Text>
-			</Replace>
+			</Row>
 
 			<!-- ================ Liang ================ -->
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_AGRICULTURE_DESCRIPTION" Language="ja_JP">
+			<Row Tag="LOC_GOVERNOR_PROMOTION_AGRICULTURE_DESCRIPTION" Language="ja_JP">
 				<Text>+1 [ICON_FOOD] Food on the city's revealed resources.</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_AGRICULTURE_NAME" Language="ja_JP">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_AGRICULTURE_NAME" Language="ja_JP">
 				<Text>Agriculture</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_DESCRIPTION" Language="ja_JP">
 				<Text>Can construct the City Park improvement on flat land in the city once Games and Recreation is unlocked. One per city. +3 [ICON_SCIENCE] Science, +3 [ICON_Culture] Culture, +3 [ICON_GOLD] Gold, +1 [ICON_HOUSING] Housing, +1 [ICON_Amenities] Amenity, and +2 Appeal.</Text>
 			</Replace>
@@ -508,18 +505,18 @@
 			</Replace>
 
 			<!-- ================ Pingala ================ -->
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_EUREKA_DESCRIPTION" Language="ja_JP">
+			<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_EUREKA_DESCRIPTION" Language="ja_JP">
 				<Text>Doubles the adjacency bonus of the city's Campus district.</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_EUREKA_NAME" Language="ja_JP">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_EUREKA_NAME" Language="ja_JP">
 				<Text>Eureka</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_KNOWLEDGE_DESCRIPTION" Language="ja_JP">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_KNOWLEDGE_DESCRIPTION" Language="ja_JP">
 				<Text>Domestic [ICON_TradeRoute] Trade Routes to Pingala's city provide +3 [ICON_SCIENCE] Science.</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_KNOWLEDGE_NAME" Language="ja_JP">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_KNOWLEDGE_NAME" Language="ja_JP">
 				<Text>Shared Knowledge</Text>
-			</Replace>
+			</Row>
 			<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_DESCRIPTION" Language="ja_JP">
 				<Text>15% increase in [ICON_Science] Science generated by the city.</Text>
 			</Replace>
@@ -528,12 +525,12 @@
 			</Replace>
 
 			<!-- ================ Reyna ================ -->
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_INVESTOR_DESCRIPTION" Language="ja_JP">
+			<Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_INVESTOR_DESCRIPTION" Language="ja_JP">
 				<Text>50% [ICON_GOLD] Gold discount on all building purchases in the city.</Text>
-			</Replace>
-			<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_INVESTOR_NAME" Language="ja_JP">
+			</Row>
+			<Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_INVESTOR_NAME" Language="ja_JP">
 				<Text>Deal Maker</Text>
-			</Replace>
+			</Row>
 
 			<!-- ================ Victor ================ -->
 			<Replace Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_DESCRIPTION" Language="ja_JP">

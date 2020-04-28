@@ -9,7 +9,7 @@ lang_files = {
     'ja_JP': 'japanese.xml'
 }
 
-langs = ['en_US', 'fr_FR', 'pl_PL', 'ru_RU', 'ko_KR']
+langs = ['en_US', 'fr_FR', 'pl_PL', 'ru_RU', 'ko_KR', 'ja_JP']
 
 
 def get_data():
