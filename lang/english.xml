@@ -59,8 +59,6 @@
 				<Text>A building unique to the Aztecs. Provides an [ICON_Amenities] Amenity, +3 [ICON_CULTURE] Culture, and a [ICON_GreatGeneral] Great General Point.</Text>
 			</Replace>
 
-			<!-- ================ Brazilia ================ -->
-
 			<!-- ================ Canada ================ -->
 			<Replace Tag="LOC_ALL_PARK_COMBAT_BONUS_DESCRIPTION" Language="en_US">
 				<Text>+{1_Amount} Combat Strength when within 4 tiles of a National Park</Text>

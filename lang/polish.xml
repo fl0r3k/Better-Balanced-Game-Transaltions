@@ -50,9 +50,6 @@
 			</Replace>
 
 			<!-- ================ Australia ================ -->
-			<Replace Tag="LOC_TRAIT_CIVILIZATION_LAND_DOWN_UNDER_DESCRIPTION" Language="pl_PL">
-				<Text>+3 do [ICON_Housing] obszarów mieszkalnych nadmorskich miast. Pastwiska uruchamiają bombę kulturową. +1 do przychodów z kampusów, dzielnic biznesowych, dzielnic świątynnych i dzielnic kulturalnych na polach o czarującym poziomie atrakcyjności i +3 na polach o poziomie niesamowitym.  </Text>
-			</Replace>
 			<Replace Tag="LOC_TRAIT_LEADER_CITADEL_CIVILIZATION_EXPANSION2_DESCRIPTION" Language="pl_PL">
 				<Text>+50% do [ICON_PRODUCTION] produkcji, jeśli w ciągu ostatnich 10 tur wyzwolili miasto.</Text>
 			</Replace>
@@ -61,8 +58,6 @@
 			<Replace Tag="LOC_BUILDING_TLACHTLI_DESCRIPTION" Language="pl_PL">
 				<Text>Unikalna budowla Azteków. Zapewnia [ICON_AMENITIES] udogodnienia, +3 do [ICON_CULTURE] kultury i punkt [ICON_GreatGeneral] wielkiego generała.</Text>
 			</Replace>
-
-			<!-- ================ Brazilia ================ -->
 
 			<!-- ================ Canada ================ -->
 			<Replace Tag="LOC_ALL_PARK_COMBAT_BONUS_DESCRIPTION" Language="pl_PL">
@@ -749,9 +744,6 @@
 		<Replace Tag="LOC_UNIT_ANTIAIR_GUN_DESCRIPTION" Language="pl_PL">
 			<Text>Przeciwlotnicza jednostka wsparcia epoki nowożytnej. Zapewnia osłonę przed atakami z powietrza w odległości do 1 pola od niej.</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_BATTERING_RAM_EXPANSION2_DESCRIPTION" Language="pl_PL">
-			<Text>Starożytna jednostka wsparcia. Gdy sąsiaduje z miastem, sprawia, że jednostki walczące w zwarciu i zwalczające kawalerię zadają pełne uszkodzenia murom miejskim. Nie działa na miasta ze średniowiecznymi i renesansowymi murami. Nieskuteczna przeciwko obronie miejskiej.</Text>
-		</Replace>
 
 
 		<!-- ================ W O N D E R S ================ -->
@@ -809,9 +801,6 @@
 			</Replace>
 			<Replace Tag="LOC_BUILDING_HUEY_TEOCALLI_DESCRIPTION" Language="pl_PL">
 				<Text>+1 [ICON_AMENITIES] udogodnienie z rozrywki za każde pole jeziora w promieniu jednego pola od Huey Teocalli. +1 do [ICON_FOOD] żywności, +1 do [ICON_PRODUCTION] produkcji i +2 do [ICON_CULTURE] kultiry za każde pole z jeziorem w twoim imperium. Można zbudować tylko na polu z jeziorem sąsiadującym z lądem.</Text>
-			</Replace>
-			<Replace Tag="LOC_BUILDING_OXFORD_UNIVERSITY_DESCRIPTION" Language="pl_PL">
-				<Text>+20% do [ICON_Science] nauki w tym mieście. Po zbudowaniu odblokowuje za darmo 2 losowo wybrane technologie. Można zbudować tylko na płaskim terenie z łąką lub równiną w sąsiedztwie kampusu z uniwersytetem.</Text>
 			</Replace>
 			<Replace Tag="LOC_BUILDING_ST_BASILS_CATHEDRAL_DESCRIPTION" Language="pl_PL">
 				<Text>Daje 1 [ICON_GreatWork_Relic] relikwię i 3 [ICON_GreatWork_Relic] miejsca na relikwie. +100% do [ICON_Tourism] turystyki religijnej z tego miasta. +1 do [ICON_FOOD] żywności, +1 do [ICON_PRODUCTION] produkcji i +1 do [ICON_CULTURE] kultury na wszystkich polach tundry należących do tego miasta. Można zbudować tylko w sąsiedztwie centrum miasta.</Text>

@@ -59,8 +59,6 @@
 				<Text>Уникальное здание ацтеков. Дает [ICON_Amenities] довольство, +3 очка [ICON_Culture] культуры и 1 очко [ICON_GreatGeneral] великого полководца.</Text>
 			</Replace>
 
-			<!-- ================ Brazilia ================ -->
-
 			<!-- ================ Canada ================ -->
 			<Replace Tag="LOC_ALL_PARK_COMBAT_BONUS_DESCRIPTION" Language="ru_RU">
 				<Text>+{1_Amount} к боевой мощи в 4 клетках от Национального Парка</Text>

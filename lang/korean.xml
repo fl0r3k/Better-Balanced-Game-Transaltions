@@ -59,8 +59,6 @@
 				<Text>아즈텍 특유의 건물입니다. [ICON_Amenities] 쾌적도 +1, [ICON_Culture] 문화 +3, [ICON_GreatGeneral] 위대한 장군 점수 +1을 제공합니다.</Text>
 			</Replace>
 
-			<!-- ================ Brazilia ================ -->
-
 			<!-- ================ Canada ================ -->
 			<Replace Tag="LOC_ALL_PARK_COMBAT_BONUS_DESCRIPTION" Language="ko_KR">
 				<Text>국립공원에서 4타일 이내에 있는 경우 전투력 +{1_Amount}</Text>
