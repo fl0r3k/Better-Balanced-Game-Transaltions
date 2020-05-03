@@ -4,18 +4,22 @@
 
 
 		<!-- ================ C I T Y   P R O J E C T S ================ -->
-		<Replace Tag="LOC_PROJECT_LAUNCH_MOON_LANDING_DESCRIPTION" Language="pl_PL">
-			<Text>Projekt wyścigu kosmicznego, który wystrzeliwuje dużą rakietę z załogową misją na księżyc. Daje jednorazową premię do [ICON_CULTURE] kultury równą pięciokrotności [ICON_SCIENCE] nauki generowanej na turę. To drugi krok do zwycięstwa naukowego.</Text>
-		</Replace>
-		<Replace Tag="LOC_PROJECT_LAUNCH_MOON_LANDING_POPUP" Language="pl_PL">
-			<Text>Człowiek wylądował na księżycu! Otrzymujesz jednorazową premię do [ICON_CULTURE] kultury równą pięciokrotności [ICON_SCIENCE] nauki generowanej na turę. To drugi krok do zwycięstwa naukowego.</Text>
-		</Replace>
+
+			<!-- ================ Moon Landing ================ -->
+			<Replace Tag="LOC_PROJECT_LAUNCH_MOON_LANDING_DESCRIPTION" Language="pl_PL">
+				<Text>Projekt wyścigu kosmicznego, który wystrzeliwuje dużą rakietę z załogową misją na księżyc. Daje jednorazową premię do [ICON_CULTURE] kultury równą pięciokrotności [ICON_SCIENCE] nauki generowanej na turę. To drugi krok do zwycięstwa naukowego.</Text>
+			</Replace>
+			<Replace Tag="LOC_PROJECT_LAUNCH_MOON_LANDING_POPUP" Language="pl_PL">
+				<Text>Człowiek wylądował na księżycu! Otrzymujesz jednorazową premię do [ICON_CULTURE] kultury równą pięciokrotności [ICON_SCIENCE] nauki generowanej na turę. To drugi krok do zwycięstwa naukowego.</Text>
+			</Replace>
 
 
 		<!-- ================ C I V I C S ================ -->
-		<Replace Tag="LOC_CIVIC_ENVIRONMENTALISM_DESCRIPTION" Language="pl_PL">
-			<Text>+50% do [ICON_Tourism] turystyki w całym imperium.</Text>
-		</Replace>
+
+			<!-- ================ Environmentalism ================ -->
+			<Replace Tag="LOC_CIVIC_ENVIRONMENTALISM_DESCRIPTION" Language="pl_PL">
+				<Text>+50% do [ICON_Tourism] turystyki w całym imperium.</Text>
+			</Replace>
 
 
 		<!-- ================ C I V I L I Z A T I O N S ================ -->
@@ -117,6 +121,9 @@
 			<Replace Tag="LOC_IMPROVEMENT_CHATEAU_DESCRIPTION" Language="pl_PL">
 				<Text>Odblokowuje zdolność budowniczych pozwalającą wznieść chateau dostępne tylko Francji.[NEWLINE][NEWLINE]+2 do [ICON_CULTURE] kultury. +1 do atrakcyjności. +1 do [ICON_CULTURE] kultury za każdy sąsiadujący cud (+2 po opracowaniu technologii lotu). +1 [ICON_GOLD] złota za każdy sąsiadujący zasób luksusowy. Zapewnia [ICON_TOURISM] turystykę po opracowaniu technologii lotu. Można budować tylko w sąsiedztwie rzek.</Text>
 			</Replace>
+			<Replace Tag="LOC_TECH_CASTLES_DESCRIPTION" Language="pl_PL">
+				<Text>Premia za sąsiedztwo do [ICON_Culture] kultury generowana dzięki ulepszeniu Wielkiego Muru. Daje darmowego szpiega podczas gry Francją.</Text>
+			</Replace>
 			<Replace Tag="LOC_TRAIT_CIVILIZATION_WONDER_TOURISM_DESCRIPTION" Language="pl_PL">
 				<Text>Po odkryciu technologii zamków otrzymuje darmowego szpiega (maksymalna liczba posiadanych szpiegów również wzrasta o 1). Wszyscy szpiedzy rozpoczynają rozgrywkę jako agenci z darmowym awansem. +20% do [ICON_PRODUCTION] produkcji cudów z epoki średniowiecza, renesansu i przemysłowej. +50% do [ICON_Tourism] turystyki uzyskiwanej dzięki cudom z dowolnej epoki.</Text>
 			</Replace>
@@ -189,7 +196,10 @@
 
 			<!-- ================ Khmer ================ -->
 			<Replace Tag="LOC_BUILDING_PRASAT_DESCRIPTION" Language="pl_PL">
-				<Text>Budowla dostępna wyłącznie dla Khmeru. Zastępuje świątynię. Niezbędna do kupna apostołów i inkwizytorów za [ICON_FAITH] wiarę. Po wybudowaniu daje darmową jednostkę misjonarza (jeżeli religia została założona). Misjonarze zakupieni w tym mieście otrzymują umiejętność męczennika, która sprawia, że po ich śmierci w walce teologicznej generowane są [ICON_GreatWork_Relic] relikwie.</Text>
+				<Text>Budowla dostępna wyłącznie dla Khmeru. Zastępuje świątynię. Niezbędna do kupna apostołów i inkwizytorów za [ICON_FAITH] wiarę. Po wybudowaniu daje darmową jednostkę misjonarza (jeżeli religia została założona).</Text>
+			</Replace>
+			<Replace Tag="LOC_BUILDING_SHOPPING_MALL_DESCRIPTION" Language="pl_PL">
+				<Text>+6 do [ICON_Tourism] turystyki. Można wybudować tylko raz w każdym mieście, nawet jeśli w danym mieście znajduje się wiele dzielnic osiedlowych.</Text>
 			</Replace>
 			<Row Tag="LOC_DISTRICT_HOLY_SITE_RIVER_FAITH" Language="pl_PL">
 				<Text>+{1_num} [ICON_FAITH] wiary za sąsiedztwo z rzeką.</Text>
@@ -306,6 +316,9 @@
 			<Replace Tag="LOC_IMPROVEMENT_PAIRIDAEZA_DESCRIPTION" Language="pl_PL">
 				<Text>Odblokowuje zdolność budowniczych pozwalającą wznieść pairidaezę dostępną tylko dla Persji.[NEWLINE][NEWLINE]+1 do [ICON_CULTURE] kultury i +2 do [ICON_GOLD] złota. +2 do atrakcyjności. +1 do [ICON_CULTURE] kultury za każdy sąsiadujący kampus, dzielnicę świątynną i kulturalną. +1 do [ICON_GOLD] złota za każdą sąsiadującą dzielnicę biznesową, przystań, dzilenicę przemysłową i centrum miasta. Dodatkowa [ICON_CULTURE] kultura i [ICON_Tourism] turystyka wraz z postępami na drzewach technologii i idei. Nie można budować na śniegu, w tundrze, na zaśnieżonych wzgórzach, wzgórzach pokrytych tundrą i w sąsiedztwie innej pairidaezy.</Text>
 			</Replace>
+			<Replace Tag="LOC_TRAIT_CIVILIZATION_SATRAPIES_DESCRIPTION" Language="pl_PL">
+				<Text>+1 [ICON_TradeRoute] do maksymalnej liczby szlaków handlowych w połączeniu z ideą filozofii politycznej. +2 [ICON_GOLD] złota i +1 [ICON_CULTURE] kultury dzięki szlakom łączącym własne miasta. Dodatkowe [ICON_GOLD] złoto i [ICON_CULTURE] kultura za krajowe szlaki handlowe wraz z postępami na drzewach idei i technologii. Drogi wybudowane na obszarze własnego terytorium są o jeden poziom bardziej zaawansowane niż domyślnie.</Text>
+			</Replace>
 			<Replace Tag="LOC_TRAIT_LEADER_FALL_BABYLON_EXPANSION1_DESCRIPTION" Language="pl_PL">
 				<Text>+3 do [ICON_STRENGTH] siły bojowej jednostem podczas ataku. +5 do lojalności na turę w okupowanych miastach ze stacjonującą w nich jednostką. W kwestii kary za wojowniczość i zmęczenia wojną wojna z zaskoczenia traktowana jest jak wojna formalna.</Text>
 			</Replace>
@@ -346,9 +359,6 @@
 			<!-- ================ Scotland ================ -->
 			<Replace Tag="LOC_IMPROVEMENT_GOLF_COURSE_DESCRIPTION" Language="pl_PL">
 				<Text>Odblokowuje zdolność budowniczych pozwalającą tworzyć pole golfowe dostępne wyłącznie dla Szkocji.[NEWLINE][NEWLINE]+1 [ICON_AMENITIES] udogodnienie i +2 do [ICON_GOLD] złota i +1 do [ICON_CULTURE]. +1 do [ICON_GOLD] i +1 do [ICON_CULTURE] kultury, jeśli sąsiaduje z centrum miasta. +1 do [ICON_CULTURE] kultury, jeśli sąsiaduje z dzielnicą rozrywkową. Dodatkowa [ICON_CULTURE] kultura, [ICON_GOLD] złoto, [ICON_TOURISM] turystyka i [ICON_HOUSING] obszary mieszkalne wraz z postępami na drzewach idei i technologii. Nie można umieścić na polach z pustynią i pustynią ze wzgórzami. Tylko jedno na miasto. Pól z polem golfowym nie można wymieniać. +1 do atrakcyjności.</Text>
-			</Replace>
-			<Replace Tag="LOC_TRAIT_CIVILIZATION_SCOTTISH_ENLIGHTENMENT_DESCRIPTION" Language="pl_PL">
-				<Text>Miasta z zadowolonymi mieszkańcami zyskują +10% do [ICON_SCIENCE] nauki i +5% do [ICON_PRODUCTION] produkcji oraz dodatkowe 5% jeżeli mieszkańcy miasta są stanie zachwytu. Miasta z zadowolonymi mieszkańcami generują +1 punkt [ICON_GreatScientist] wielkiego naukowca za każdy kampus i +1 punkt [ICON_GreatEngineer] wielkiego inżyniera za każdą dzielnicę przemysłową.</Text>
 			</Replace>
 
 			<!-- ================ Scyth ================ -->
@@ -563,29 +573,43 @@
 
 
 		<!-- ================ I M P R O V E M E N T S ================ -->
-		<Replace Tag="LOC_IMPROVEMENT_FISHERY_DESCRIPTION" Language="pl_PL">
-			<Text>Odblokowuje zdolność budowniczych pozwalającą konstruować hodowle ryb.[NEWLINE][NEWLINE]+1 do [ICON_FOOD] żywności i dodatkowe +1, jeśli sąsiaduje z zasobem morskim. Można wybudować wyłącznie na polach wybrzeża.</Text>
-		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_FISHING_BOATS_DESCRIPTION" Language="pl_PL">
-			<Text>Odblokowuje zdolność budowniczych pozwalającą konstruować łodzie rybackie.[NEWLINE][NEWLINE]+1 do [ICON_FOOD] żywności i +1 do [ICON_PRODUCTION] produkcji. Można budować je tylko na odpowiednich zasobach.[NEWLINE][NEWLINE]Jeśli powstaną na zasobie luksusowym, miasto będzie mogło korzystać z tego zasobu.</Text>
-		</Replace>
+
+			<!-- ================ Fishery ================ -->
+			<Replace Tag="LOC_IMPROVEMENT_FISHERY_DESCRIPTION" Language="pl_PL">
+				<Text>Odblokowuje zdolność budowniczych pozwalającą konstruować hodowle ryb.[NEWLINE][NEWLINE]+1 do [ICON_FOOD] żywności i dodatkowe +1, jeśli sąsiaduje z zasobem morskim. Można wybudować wyłącznie na polach wybrzeża.</Text>
+			</Replace>
+
+			<!-- ================ Fishing Boats ================ -->
+			<Replace Tag="LOC_IMPROVEMENT_FISHING_BOATS_DESCRIPTION" Language="pl_PL">
+				<Text>Odblokowuje zdolność budowniczych pozwalającą konstruować łodzie rybackie.[NEWLINE][NEWLINE]+1 do [ICON_FOOD] żywności i +1 do [ICON_PRODUCTION] produkcji. Można budować je tylko na odpowiednich zasobach.[NEWLINE][NEWLINE]Jeśli powstaną na zasobie luksusowym, miasto będzie mogło korzystać z tego zasobu.</Text>
+			</Replace>
 
 
 		<!-- ================ P O L I C I E S ================ -->
-		<Replace Tag="LOC_POLICY_COLLECTIVIZATION_DESCRIPTION_XP2" Language="pl_PL">
-			<Text>+4 do [ICON_PRODUCTION] produkcji i +4 do [ICON_FOOD] żywności dzięki krajowym [ICON_TradeRoute] szlakom handlowym.</Text>
-		</Replace>
-		<Replace Tag="LOC_POLICY_FORCE_MODERNIZATION_DESCRIPTION" Language="pl_PL">
-			<Text>50% zniżki obejmującej [ICON_GOLD] złoto na ulepszenia jednostek. 50% zniżki obejmującej zasoby na produkcję i ulepszenia jednostek.</Text>
-		</Replace>
-		<Replace Tag="LOC_POLICY_RETINUES_DESCRIPTION" Language="pl_PL">
-			<Text>50% zniżki obejmującej zasoby na produkcję i ulepszenia jednostek.</Text>
-		</Replace>
+
+			<!-- ================ Economic ================ -->
+
+				<!-- Collectivization -->
+				<Replace Tag="LOC_POLICY_COLLECTIVIZATION_DESCRIPTION_XP2" Language="pl_PL">
+					<Text>+4 do [ICON_PRODUCTION] produkcji i +4 do [ICON_FOOD] żywności dzięki krajowym [ICON_TradeRoute] szlakom handlowym.</Text>
+				</Replace>
 
 			<!-- ================ Military ================ -->
-			<Replace Tag="LOC_POLICY_LIMES_DESCRIPTION" Language="pl_PL">
-				<Text>+100% do [ICON_PRODUCTION] produkcji jednostek oblężniczych oraz murów.</Text>
-			</Replace>
+
+				<!-- Force Modernization -->
+				<Replace Tag="LOC_POLICY_FORCE_MODERNIZATION_DESCRIPTION" Language="pl_PL">
+					<Text>50% zniżki obejmującej [ICON_GOLD] złoto na ulepszenia jednostek. 50% zniżki obejmującej zasoby na produkcję i ulepszenia jednostek.</Text>
+				</Replace>
+
+				<!-- Limes -->
+				<Replace Tag="LOC_POLICY_LIMES_DESCRIPTION" Language="pl_PL">
+					<Text>+100% do [ICON_PRODUCTION] produkcji jednostek oblężniczych oraz murów.</Text>
+				</Replace>
+
+				<!-- Retinues -->
+				<Replace Tag="LOC_POLICY_RETINUES_DESCRIPTION" Language="pl_PL">
+					<Text>50% zniżki obejmującej zasoby na produkcję i ulepszenia jednostek.</Text>
+				</Replace>
 
 
 		<!-- ================ P R O M O T I O N S ================ -->
@@ -607,7 +631,7 @@
 
 			<!-- ================ Beliefs ================ -->
 			<Replace Tag="LOC_BELIEF_CROSS_CULTURAL_DIALOGUE_DESCRIPTION" Language="pl_PL">
-				<Text>+1 do [ICON_SCIENCE] nauki za każdych 2 wyznawców religii w innych cywilizacjach.</Text>
+				<Text>+1 do [ICON_SCIENCE] nauki za każdych 3 wyznawców religii w innych cywilizacjach.</Text>
 			</Replace>
 			<Replace Tag="LOC_BELIEF_DAR_E_MEHR_DESCRIPTION" Language="pl_PL">
 				<Text>Umożliwia budowę dar-e mehr (+3 do [ICON_FAITH] wiary, +2 do [ICON_CULTUR] kultury).</Text>
@@ -631,13 +655,13 @@
 				<Text>Dzielnica świątynna, Kaplice i świątynie zapewniają +1 [ICON_HOUSING] obszar mieszkalny.</Text>
 			</Replace>
 			<Replace Tag="LOC_BELIEF_TITHE_DESCRIPTION" Language="pl_PL">
-				<Text>+1 do [ICON_GOLD] złota za każdych 2 wyznawców tej religii.</Text>
+				<Text>+1 do [ICON_GOLD] złota za każdych 3 wyznawców tej religii.</Text>
 			</Replace>
 			<Replace Tag="LOC_BELIEF_WORK_ETHIC_DESCRIPTION" Language="pl_PL">
 				<Text>Kaplice i świątynie dają bonus do [ICON_PRODUCTION] produkcji równy ilości [ICON_FAITH] wiary jakie generują.</Text>
 			</Replace>
 			<Replace Tag="LOC_BELIEF_WORLD_CHURCH_DESCRIPTION" Language="pl_PL">
-				<Text>+1 do [ICON_CULTURE] kultury za każdych 2 wyznawców religii w innych cywilizacjach.</Text>
+				<Text>+1 do [ICON_CULTURE] kultury za każdych 3 wyznawców religii w innych cywilizacjach.</Text>
 			</Replace>
 			<Replace Tag="LOC_BELIEF_ZEN_MEDITATION_DESCRIPTION" Language="pl_PL">
 				<Text>+1 [ICON_AMENITIES] udogodnienie w miastach z przynajmniej jedną wyspecjalizowaną dzielnicą.</Text>
@@ -703,9 +727,11 @@
 
 
 		<!-- ================ T E C H N O L O G I E S ================ -->
-		<Replace Tag="LOC_TECH_COMPUTERS_DESCRIPTION" Language="pl_PL">
-			<Text>Możliwość zatrudnienia dodatkowego szpiega. Wzrost [ICON_Tourism] turystyki w całym imperium o 50%.</Text>
-		</Replace>
+
+			<!-- ================ Computers ================ -->
+			<Replace Tag="LOC_TECH_COMPUTERS_DESCRIPTION" Language="pl_PL">
+				<Text>Możliwość zatrudnienia dodatkowego szpiega. Wzrost [ICON_Tourism] turystyki w całym imperium o 50%.</Text>
+			</Replace>
 
 			<!-- ================ Steel ================ -->
 			<Replace Tag="LOC_TECH_STEEL_DESCRIPTION" Language="pl_PL">
